@@ -1,16 +1,12 @@
+import 'dart:io';
+
 void main() {
-  int num1 = 5;
-  int num2 = 8;
+  print("Enter a number: ");
+  int num = int.parse(stdin.readLineSync()!);
 
-  if (num1 % 2 == 0) {
-    print("$num1 is even");
+  if (num % 2 == 0) {
+    print("$num is even");
   } else {
-    print("$num1 is odd");
-  }
-
-  if (num2 % 2 == 0) {
-    print("$num2 is even");
-  } else {
-    print("$num2 is odd");
+    print("$num is odd");
   }
 }
