@@ -3,15 +3,15 @@ import 'dart:io';
 void main() {
   do {
     print("Enter first number: ");
-    double num1 = double.parse(stdin.readLineSync()!);
+    num num1 = num.parse(stdin.readLineSync()!);
 
     print("Enter operator (+, -, *, /): ");
     String op = stdin.readLineSync()!;
 
     print("Enter second number: ");
-    double num2 = double.parse(stdin.readLineSync()!);
+    num num2 = num.parse(stdin.readLineSync()!);
 
-    double result;
+    num result;
 
     if (op == '+') {
       result = num1 + num2;
