@@ -8,8 +8,3 @@
 - **Course Title:** Smartphone Application Development  
 - **Instructor:** Nargish Jahan
 
----
-
-## 📂 Repository Overview
-This repository contains all assignments and projects completed for the course **CSE-3212: Smartphone Application Development**.  
-Each folder corresponds to a specific assignment or project.
