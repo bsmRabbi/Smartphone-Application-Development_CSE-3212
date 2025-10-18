@@ -44,7 +44,7 @@ void main() {
 
       case 4:
         print("Exiting...");
-        return; // exits the while loop and program
+        return; 
 
       default:
         print("Invalid choice, try again!");
